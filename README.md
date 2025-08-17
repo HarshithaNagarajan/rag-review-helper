@@ -4,6 +4,7 @@ A personal RAG pipeline for organizing, summarizing, and reusing my monthly revi
 This is a wip.
 
 # Steps to run for now
+Assuming you've created/have an environment that supports the libraries in `requirements.txt`:
 1. Create a folder called "`data`" in this repository. Upload your pdfs there.
 2. Run `build_vectorstore.py`. This will create a folder called `vectorstore`, where embeddings are stored.
 3. Then run either `query_rag.py` or `app.py` to ask questions about the pdfs.
